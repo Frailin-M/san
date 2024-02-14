@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon Effect Heart</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Agregado para hacerlo responsive */
+        @media (max-width: 768px) {
+            .neon-text h1 {
+                font-size: 1.5em;
+            }
+
+            .additional-text h1 {
+                font-size: 1em;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <canvas id="canvas" width="2500" height="100"></canvas>
         <div class="neon-text">
-            <h1>“Tal vez no pueda darte lo mejor del mundo,<br> pero ten por seguro que tendrás<br> siempre lo mejor de mí.<br> Happy Valentines<br> Day"<br></h1>
+            <h1>“Tal vez no pueda darte lo mejor del mundo,<br> pero ten por seguro que tendrás<br> siempre lo mejor de mí.<br> Happy Valentines<br> Day"</h1>
         </div>
     </div>
     <script src="script.js"></script>
